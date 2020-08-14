@@ -1,4 +1,5 @@
-.container-fluid .navbar-brand{
+.container-fluid .navbar-brand 
+{
     color: white;
     height: 60px;
     padding: 20px;
@@ -8,11 +9,13 @@
     background: rgb(31, 214, 196);
 }
 
-.navbar-nav li {
+.navbar-nav li
+{
   display:inline-block;     
 }
 
-body{
+body
+{
   background-color:#e4e4e4;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.1rem;
@@ -21,15 +24,13 @@ body{
   text-align: justify;
 }
 
-.container {
-  
+.container
+{
   background-color: white;
-  
-  
-  
 }
 
-.container h1{
+.container h1
+{
   font-weight: bold;
   font-size: 250%;
   color: turquoise;
@@ -40,12 +41,14 @@ body{
   align-content: center;
 }
 
-p {
+p
+{
   line-height: 1.8;
   margin-bottom: 70px;
 }
 
-.container h3{
+.container h3
+{
   font-weight: bold;
   font-size: 125%;
   color: turquoise;
@@ -62,11 +65,13 @@ footer{
   background-color: rgb(83, 83, 81);
 }
 
-.footer p{
+.footer p
+{
   color: white;
 }
 
-.container h2{
+.container h2
+{
   font-weight: bold;
   font-size: 150%;
   color: turquoise;
@@ -75,51 +80,53 @@ footer{
   margin-left: 20px;
   padding: 20px;
 }
-#comparison {
+
+#comparison
+{
   margin-top: 10px;
   text-align: center;
   margin-bottom: 30px;
 }
 
-#comparison h3 {
+#comparison h3
+{
   margin-top: 1px;
 }
 
-#comparison p {
+#comparison p
+{
   margin-bottom: 20px;
 }
 
-#firstblock {
+#firstblock
+{
   width:90%;
 }
 
-#secondblock {
+#secondblock
+{
   margin-left: 25px;
   width:85%;
 }
 
-.dataframe{
+.dataframe
+{
   margin-left: 100px;
 }
 
-.col-md-12 h2{
+.col-md-12 h2
+{
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-@media (max-width: 480px) {
-  .navbar-nav li {  
+@media (max-width: 480px)
+{
+  .navbar-nav li
+  {  
     padding: 10px;
   }
-  /* .box {
-    margin-right: 20px;
-    margin-left: 20px;
-  } */
-  /* The nav bar selection remains hidden when screen size reaches 480px */
   .navbar ul { 
     visibility: hidden;
   }
-  /* #nav-select {
-    visibility: visible;
-  } */
 }
